@@ -1,0 +1,57 @@
+h1{
+    color: blue;
+    margin-left:  30px;
+
+    }
+    *{
+        background-color:lemonchiffon;
+    }
+
+    .header {
+        border:solid;
+        background-color:blue;
+        display:flex;
+        justify-content:space-between
+
+    }
+
+    .grid {
+        color:coral;
+        display:flex;
+        justify-content:space-evenly;
+        margin-left: 100px;
+    }
+    .item{
+        background-color:darkcyan;
+        color:darkred;
+        padding-bottom: 20px;
+    }
+    
+    .item h3{
+      opacity:0.33
+    }
+
+    .item:hover h3{
+        opacity:1
+      }
+
+      .item img{
+        opacity:0.33  
+      }
+  
+      .item:hover img{
+          opacity:1
+        }
+
+    .footer {
+        display:flex;
+        justify-content:flex-end;
+    }
+    a:link{
+        color:red
+    }
+    a:visited{
+        color:teal
+    }
+
+    
